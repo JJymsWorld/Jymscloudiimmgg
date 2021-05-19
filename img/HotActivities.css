@@ -1,0 +1,508 @@
+/* EventsPage.css */
+
+.tab-top-bar{
+    margin-top: 30rpx;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab-top-bar-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 68rpx;
+    width: 192rpx;
+    background-color: #F2A3C3;
+    border-style: none;
+    border-radius: 10rpx;
+    color: white;
+    margin-right: 20rpx;
+}
+
+.tab-top-bar-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 62rpx;
+    width: 184rpx;
+    border-style: dotted;
+    border-radius: 10rpx;
+    border-color: #E7A7C2;
+    border-width: 4rpx;
+    color: #797979;
+}
+
+.top-function-bar-right{
+    display: flex;
+    flex-direction: row;
+    border-style: none;
+    border-radius: 40rpx;
+    background-color: rgba(242, 242, 242, 0.5);
+    align-items: center;
+    width: 25%;
+    margin-left: auto;
+    /* margin-right: 20rpx; */
+    box-shadow: 0 0 4rpx 4rpx rgba(121, 121, 121, 0.1);
+}
+.popcoser-search-fs{
+    font-size: 26rpx;
+    margin-left: 20rpx;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.searchbar-search-Icon{
+    color: #797979;
+    font-size: 26rpx;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20rpx;
+}
+
+.top-function-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20rpx;
+}
+.top-function-bar-left{
+    font-size: 34rpx;
+    color: #797979;
+}
+.top-function-bar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.top-function-bar-left-icon{
+    margin-left: 8rpx;
+}
+
+.Events-list{
+    margin-top: 20rpx;
+    border-top-style: solid;
+    border-top-color: rgba(121, 121, 121, 0.05);
+}
+
+.Events-list-item{
+    border-bottom-style: solid;
+    border-bottom-width: 8rpx;
+    border-bottom-color: rgba(121, 121, 121, 0.05);
+}
+.Events-list-item-header{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Events-list-item-body{
+	width: 90%;
+    font-size: 30rpx;
+    margin-bottom: 20rpx;
+	margin: 30rpx auto;
+}
+.Events-list-item-body-text{
+	padding-left: 20rpx;
+	line-height: 45rpx;
+}
+.Events-list-item-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 26rpx;
+    margin-left: 20rpx;
+	margin-bottom: 15rpx;
+}
+
+.Events-list-item-footer-EventsActive{
+    width: 100rpx;
+    height: 40rpx;
+    background-color: rgba(236, 128, 141, 0.3);
+    color: #D9001B;
+    text-align: center;
+    border-style: none;
+    border-radius: 20rpx;
+}
+
+.Events-list-item-footer-EventsnoActive{
+    width: 100rpx;
+    height: 40rpx;
+    background-color: rgba(51, 51, 51, 0.3);
+    color: #7F7F7F;
+    text-align: center;
+    border-style: none;
+    border-radius: 20rpx;
+}
+.Events-list-item-footer-left{
+	margin-left: 10rpx;
+}
+.Events-list-item-footer-right{
+    color: #797979;
+    margin-left: 20rpx;
+}
+.Events-list-item-footer-right-icon{
+    margin-right: 8rpx;
+}
+
+
+/* CosCollectionsPage.css */
+.CosCollections-top-imgwrapper{
+    width: 100%;
+}
+.CosCollections-top-image{
+    width: 100%;
+}
+.CosCollections-top-title{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40rpx;
+    font-weight: bold;
+    font-size: 34rpx;
+}
+.CosCollections-top-themeandtime{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32rpx;
+    margin-bottom: 40rpx;
+}
+.CosCollections-taptab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 95rpx;
+    background-color: rgba(242, 163, 195, 0.6);
+}
+
+.CosCollections-taptab-left{
+    margin-right: 100rpx;
+    color: white;
+    font-size: 32rpx;
+}
+.CosCollections-taptab-left-active{
+    margin-right: 100rpx;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(236, 128, 141, 0.7);
+    border-bottom-width: 8rpx;
+    font-size: 32rpx;
+}
+.CosCollections-taptab-right{
+    margin-left: 100rpx;
+    color: white;
+    font-size: 32rpx;
+}
+.CosCollections-taptab-right-active{
+    margin-left: 100rpx;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(236, 128, 141, 0.7);
+    border-bottom-width: 8rpx;
+    font-size: 32rpx;
+}
+
+.CosCollections-list-content-item-header{
+    width: 175rpx;
+    height: 250rpx;
+}
+
+.CosCollections-list-content-item-image{
+    width: 175rpx;
+    height: 250rpx;
+}
+
+.CosCollections-list-content-item-header{
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+}
+
+.CosCollections-list-content-item-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.CosCollections-list-content-item-body-title{
+    font-size: 32rpx;
+}
+.CosCollections-list-content-item-body-character{
+    font-size: 32rpx;
+    margin-left: 16rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}
+.CosCollections-list-content-item-body-character-text{
+    font-weight: bold;
+}
+.CosCollections-list-content-item-body-activeStatus{
+    font-size: 24rpx;
+    margin-left: 16rpx;
+    width: 130rpx;
+    height: 40rpx;
+    background-color: rgba(236, 128, 141, 0.3);
+    color: #D9001B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    border-radius: 20rpx;
+}
+.CosCollections-list-content-item-body-notactiveStatus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24rpx;
+    margin-left: 16rpx;
+    width: 130rpx;
+    height: 40rpx;
+    background-color: rgba(51, 51, 51, 0.3);
+    color: #7F7F7F;
+    text-align: center;
+    border-style: none;
+    border-radius: 20rpx;
+}
+
+.CosCollections-allButton{
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    width: 40%;
+    height: 80rpx;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(121, 121, 121, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    border-radius: 30rpx;
+}
+.CosCollections-Button{
+    color: #FFFFFF;
+}
+
+.CosCollections-allButton-active{
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    width: 40%;
+    height: 80rpx;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(242, 163, 195, 1.0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    border-radius: 30rpx;
+}
+.CosCollections-Button-active{
+
+}
+
+
+/* CoserHirePage.css */
+
+.CoserHirePage-top-theme{
+    margin-bottom: 30rpx;
+}
+
+.CoserHirePage-viewButton-style{
+    height: 70rpx;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D7D7D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    border-radius: 20rpx;
+    color: white;
+    margin-bottom: 40rpx;
+}
+
+
+.AttendCoser-list{
+    background-color: rgba(242, 163, 195, 0.33);
+    padding-bottom: 20rpx;
+}
+.AttendCoserlist-bar-label{
+    border-bottom-style: solid;
+    border-bottom-color: rgba(236, 128, 141, 0.7);
+    border-bottom-width: 8rpx;
+    margin-left: 50rpx;
+    font-size: 32rpx;
+}
+.AttendCoserlist-bar{
+    margin-bottom: 20rpx;
+}
+
+.AttendCoserlist-content-listItem-header{
+    font-size: 26rpx;
+    margin-left: 20rpx;
+}
+.AttendCoserlist-content-listItem-body{
+    font-size: 26rpx;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 80rpx;
+}
+.AttendCoserlist-content-listItem-body-Coser{
+    color:#F2A3C3;
+    margin-left: 20rpx;
+    font-weight: bold;
+}
+
+/* EventDetailPage.css */
+.EventDetail-top-cover{
+    width: 100%;
+    margin-bottom: 20rpx;
+}
+.EventDetail-top-image{
+    width: 100%;
+}
+.EventDetail-top-timer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32rpx;
+    color: #EC808D;
+    margin-bottom: 20rpx;
+}
+.EventDetail-top-timer-com{
+    margin-right: auto;
+    margin-left: 10rpx;
+}
+.EventDetail-top-timer-icon{
+    margin-left: auto;
+    margin-right: 10rpx;
+}
+.EventDetail-top-title{
+    margin-bottom: 20rpx;
+    font-size: 34rpx;
+    margin-left: 30rpx;
+    font-weight: bold;
+}
+.EventDetail-top-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40rpx;
+    font-size: 32rpx;
+    margin-bottom: 40rpx;
+}
+.EventDetail-top-content-line{
+    margin-top: 5rpx;
+    margin-bottom: 5rpx;
+	white-space: pre;
+}
+.EventDetail-top-viewButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40rpx;
+}
+.EventDetail-top-viewButton-style{
+    height: 64rpx;
+    width: 225rpx;
+    background-color: #F2A3C3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    border-radius: 32rpx;
+}
+.EventDetail-mid-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2A3C3;
+    height: 80rpx;
+    color: white;
+    font-size: 32rpx;
+}
+.EventDetail-mid-avtivityAwards-title{
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    font-weight: bold;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.EventDetail-mid-avtivityAwards{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(242, 163, 195, 0.33);
+    font-size: 28rpx;
+    padding-bottom: 30rpx;
+    color: #797979;
+}
+.EventDetail-mid-avtivityAwards-awards{
+    margin-top: 5rpx;
+    margin-bottom: 5rpx;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.EventDetail-mid-waysofAttend{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(242, 163, 195, 0.33);
+    font-size: 28rpx;
+    padding-top: 20rpx;
+    padding-bottom: 30rpx;
+    color: #797979;
+}
+.EventDetail-mid-waysofAttend-line{
+    margin-top: 5rpx;
+    margin-bottom: 5rpx;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.EventDetail-mid-Activityrules{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(242, 163, 195, 0.33);
+    font-size: 28rpx;
+    padding-top: 20rpx;
+    padding-bottom: 30rpx;
+    color: #797979;
+}
+.EventDetail-mid-Activityrules-line{
+    margin-top: 5rpx;
+    margin-bottom: 5rpx;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.EventDetail-bottom{
+    margin-top: 80rpx;
+}
+
+.EventDetail-bottom-labelbar{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-style: solid;
+    border-bottom-width: 6rpx;
+    color: #EC808D;
+    border-bottom-color: rgba(170, 170, 170, 0.5);
+    font-size: 30rpx;
+}
+.EventDetail-bottom-works-list{
+    margin-top: 30rpx;
+}
